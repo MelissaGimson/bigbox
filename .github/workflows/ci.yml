@@ -3,7 +3,7 @@ name: ci
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: "41 14 * * *"  # 每天22:00检查
 
